@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+
+    <fragment
+        android:id="@+id/nav_art"
+        android:name="me.ahmednobi.fiypress.ui.art.ArtFragment"
+        android:label="Art"
+        tools:layout="@layout/art_fragment" />
+    <fragment
+        android:id="@+id/nav_breakingNews"
+        android:name="me.ahmednobi.fiypress.ui.breakingnews.BreakingNewsFragment"
+        android:label="Breaking news"
+        tools:layout="@layout/breaking_news_fragment" />
+    <fragment
+        android:id="@+id/nav_countries"
+        android:name="me.ahmednobi.fiypress.ui.countries.CountriesFragment"
+        android:label="Countries"
+        tools:layout="@layout/countries_fragment" />
+    <fragment
+        android:id="@+id/nav_culture"
+        android:name="me.ahmednobi.fiypress.ui.culture.CultureFragment"
+        android:label="Culture"
+        tools:layout="@layout/culture_fragment" />
+    <fragment
+        android:id="@+id/nav_economy"
+        android:name="me.ahmednobi.fiypress.ui.economy.EconomyFragment"
+        android:label="Economy"
+        tools:layout="@layout/economy_fragment" />
+    <fragment
+        android:id="@+id/nav_health"
+        android:name="me.ahmednobi.fiypress.ui.health.HealthFragment"
+        android:label="Health"
+        tools:layout="@layout/health_fragment" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="me.ahmednobi.fiypress.ui.home.HomeFragment"
+        android:label="Home"
+        tools:layout="@layout/home_fragment" />
+    <fragment
+        android:id="@+id/nav_library"
+        android:name="me.ahmednobi.fiypress.ui.library.LibraryFragment"
+        android:label="Library"
+        tools:layout="@layout/library_fragment" />
+    <fragment
+        android:id="@+id/nav_news"
+        android:name="me.ahmednobi.fiypress.ui.news.NewsFragment"
+        android:label="News"
+        tools:layout="@layout/news_fragment" />
+    <fragment
+        android:id="@+id/nav_technology"
+        android:name="me.ahmednobi.fiypress.ui.technology.TechnologyFragment"
+        android:label="Technology"
+        tools:layout="@layout/technology_fragment" />
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="me.ahmednobi.fiypress.ui.world.LoginFragment"
+        android:label="World"
+        tools:layout="@layout/login_fragment" />
+    <fragment
+        android:id="@+id/nav_sports"
+        android:name="me.ahmednobi.fiypress.ui.sports.SportsFragment"
+        android:label="Sports"
+        tools:layout="@layout/sports_fragment" />
+</navigation>

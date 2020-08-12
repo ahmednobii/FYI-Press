@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">FIY Press</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="channel_name">fyi</string>
+    <string name="channel_description">fyi press</string>
+    <string name="breaking_news">Breaking News</string>
+    <string name="news">News</string>
+    <string name="sports">Sports</string>
+    <string name="economy">Economy</string>
+    <string name="health">Health</string>
+    <string name="art">Art</string>
+    <string name="technology">Technology</string>
+    <string name="culture">Culture</string>
+    <string name="library">Library</string>
+    <string name="countries">Countries</string>
+    <string name="login">Login</string>
+</resources>
